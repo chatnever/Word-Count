@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0182952219BD859B0089C683 /* news.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0182952119BD859B0089C683 /* news.txt */; };
 		01966E2919BCCD920009D85F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01966E2819BCCD920009D85F /* AppDelegate.swift */; };
 		01966E2B19BCCD920009D85F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01966E2A19BCCD920009D85F /* ViewController.swift */; };
 		01966E2E19BCCD920009D85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01966E2C19BCCD920009D85F /* Main.storyboard */; };
 		01966E3019BCCD920009D85F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01966E2F19BCCD920009D85F /* Images.xcassets */; };
 		01966E3C19BCCD920009D85F /* WordCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01966E3B19BCCD920009D85F /* WordCountTests.swift */; };
+		01966E4619BCD7580009D85F /* GenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01966E4519BCD7580009D85F /* GenericVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0182952119BD859B0089C683 /* news.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = news.txt; path = ../../../../news.txt; sourceTree = "<group>"; };
 		01966E2319BCCD920009D85F /* WordCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01966E2719BCCD920009D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01966E2819BCCD920009D85F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		01966E3519BCCD920009D85F /* WordCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01966E3A19BCCD920009D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01966E3B19BCCD920009D85F /* WordCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountTests.swift; sourceTree = "<group>"; };
+		01966E4519BCD7580009D85F /* GenericVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 			children = (
 				01966E2819BCCD920009D85F /* AppDelegate.swift */,
 				01966E2A19BCCD920009D85F /* ViewController.swift */,
+				0182952119BD859B0089C683 /* news.txt */,
 				01966E2C19BCCD920009D85F /* Main.storyboard */,
 				01966E2F19BCCD920009D85F /* Images.xcassets */,
 				01966E2619BCCD920009D85F /* Supporting Files */,
+				01966E4519BCD7580009D85F /* GenericVC.swift */,
 			);
 			path = WordCount;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01966E2E19BCCD920009D85F /* Main.storyboard in Resources */,
+				0182952219BD859B0089C683 /* news.txt in Resources */,
 				01966E3019BCCD920009D85F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01966E4619BCD7580009D85F /* GenericVC.swift in Sources */,
 				01966E2B19BCCD920009D85F /* ViewController.swift in Sources */,
 				01966E2919BCCD920009D85F /* AppDelegate.swift in Sources */,
 			);
@@ -395,6 +403,7 @@
 				01966E4119BCCD920009D85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01966E4219BCCD920009D85F /* Build configuration list for PBXNativeTarget "WordCountTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +412,7 @@
 				01966E4419BCCD920009D85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
