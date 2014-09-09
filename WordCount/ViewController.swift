@@ -34,7 +34,7 @@ class ViewController: GenericVC {
                 occurrence = occurrence + 1
                 }
             }
-        self.inRa("\(occurrence)")
+        self.inRa("\nThat word appears \(occurrence) times")
             
         }
     }
